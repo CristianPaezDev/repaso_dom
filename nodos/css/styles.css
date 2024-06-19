@@ -40,6 +40,15 @@ section{
     padding: var(--padding);
 }
 
+.bg-white{
+  background: var(--white);
+  color: var(--MineShaft);
+}
+
+.col{
+  color: var(--MineShaft);
+}
+
 a{
     color: var(--Husk);
     text-decoration: none;

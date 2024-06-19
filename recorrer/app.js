@@ -63,3 +63,52 @@ console.clear()
 console.log(main.previousElementSibling)
 console.clear()
 console.log(body.parentElement)
+console.clear()
+
+//Ejercicio
+
+const $padre = dom.getElementById('cards')
+
+console.log($padre.children)
+
+//cambiar cuando es par
+
+const nuevo = [...$padre.children]
+nuevo.map((a, i) => {
+  if (i % 2 != 0) {
+    a.classList.toggle('bg-white')
+    let pas = [...$padre.children]
+    pas.map((e, i) => {
+      e.classList.toggle
+    })
+  }
+})
+
+
+// const $formulario = dom.getElementById('search'); 
+
+// const $input = dom.querySelector('.search__form > .input');
+
+// $input.setAttribute("autocomplete", "off");
+// $input.setAttribute("placeholder", "hola"); 
+
+// $formulario.setAttribute("enctype", "on")
+// $formulario.setAttribute("enctype", "multipart/form-data")
+
+// const $html = dom.documentElement;
+// // console.log($html)
+
+// const Minew_Shaft = getComputedStyle($html).getPropertyValue('--MineShaft')
+
+// const blanco = getComputedStyle($html).getPropertyValue('--white')
+
+// $html.style.setProperty('--MineShaft', 'fff')
+// $html.style.setProperty('--white', '000')
+
+
+
+// const $parrafo = dom.querySelector('#elemento')
+
+// $parrafo.innerHTML = `Parrafo ipsum <b>dolor</b> sit amet consectetur adipisicing elit. <br>Optio</br> odit officiis sit ullam harum nobis alias nesciunt magni magnam praesentium!`
+
+// console.log($parrafo)
