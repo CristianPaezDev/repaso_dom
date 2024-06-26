@@ -1,0 +1,14 @@
+.error{
+  border: solid 5px red;
+}
+
+.bien{
+  border: solid 5px green;
+}
+
+
+.good {
+  width: 150px;
+  height: 30px;
+
+}

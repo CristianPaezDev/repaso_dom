@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card{
+  width: 550px;
+  border: solid 1px cornflowerblue;
+  /* display: flex;
+  text-align: center;
+  flex-direction: column;
+  gap: 20px; */
+}
